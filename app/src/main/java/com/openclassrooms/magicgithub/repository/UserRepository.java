@@ -20,11 +20,14 @@ public class UserRepository {
 
     public void generateRandomUser() {
         // TODO: A modifier
+        apiService.getUsers().clear();
         apiService.generateRandomUser();
+        apiService.getUsers();
     }
 
     public void deleteUser(User user) {
         // TODO: A modifier
+        apiService.getUsers().clear();
         apiService.deleteUser(user);
     }
 }
