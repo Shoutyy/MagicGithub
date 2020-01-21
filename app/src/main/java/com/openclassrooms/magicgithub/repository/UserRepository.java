@@ -22,7 +22,6 @@ public class UserRepository {
         // TODO: A modifier
         apiService.getUsers().clear();
         apiService.generateRandomUser();
-        apiService.getUsers();
     }
 
     public void deleteUser(User user) {

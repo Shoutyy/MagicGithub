@@ -25,6 +25,8 @@ public class FakeApiService implements ApiService {
     @Override
     public void generateRandomUser() {
         // TODO: A modifier
+        // FakeApiServiceGenerator.FAKE_USERS_RANDOM;
+        // User.random();
     }
 
     /**
@@ -33,5 +35,6 @@ public class FakeApiService implements ApiService {
     @Override
     public void deleteUser(User user) {
         // TODO: A modifier
+        // users.deleteUser(user);
     }
 }
