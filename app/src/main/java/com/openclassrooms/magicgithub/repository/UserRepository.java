@@ -20,7 +20,6 @@ public class UserRepository {
 
     public void generateRandomUser() {
         // TODO: A modifier
-        this.apiService.getUsers();
         this.apiService.generateRandomUser();
     }
 
